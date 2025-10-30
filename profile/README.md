@@ -18,4 +18,4 @@ Wir setzten wie viele andere auch auf [Gluon](https://github.com/freifunk-gluon/
 
 ## Infrastruktur
 
-Unsere Server werden mittels Saltstack über unsere [Salt States](https://github.com/Freifunk-Rhein-Neckar/salt) konfiguriert. 
+Wir haben dedizierte Server auf denen NixOS läuft. Zur Verwaltung und Erstellung virtueller Maschienen nutzen wir [incus](https://linuxcontainers.org/incus/). Im [nixos-config](https://github.com/Freifunk-Rhein-Neckar/nixos-config) Repo kann man unsere aktuelle config sehen.
